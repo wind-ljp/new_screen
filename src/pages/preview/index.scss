@@ -1,40 +1,40 @@
-@include b(preview) {
-  position: relative;
-  width: 100vw;
-  // width: 100%;
-  // height: 100%;
-  height: 100vh;
+// @include b(preview) {
+//   position: relative;
+//   width: 100vw;
+//   // width: 100%;
+//   // height: 100%;
+//   height: 100vh;
 
-  @include e(container) {
-    position: 'absolute';
-  }
-}
+//   @include e(container) {
+//     position: 'absolute';
+//   }
+// }
 
-.app-preview {
-  overflow: hidden;
-}
+// .app-preview {
+//   overflow: hidden;
+// }
 
-.tool {
-  display: flex;
-  position: fixed;
-  height: 48px;
-  top: 135px;
-  left: 619px;
-  z-index: 9999;
+// .tool {
+//   display: flex;
+//   position: fixed;
+//   height: 48px;
+//   top: 135px;
+//   left: 619px;
+//   z-index: 9999;
   
-  img {
-    cursor: pointer;
-    width: calc(100% / 2);
+//   img {
+//     cursor: pointer;
+//     width: calc(100% / 2);
 
-    &:not(:first-child) {
-      margin-left: 16px;
-    }
-  }
-}
+//     &:not(:first-child) {
+//       margin-left: 16px;
+//     }
+//   }
+// }
 
-.ant-spin {
-  position: absolute;
-  left: calc(50% - 84px);
-  top: 220px;
-  width: 168px;
-}
+// .ant-spin {
+//   position: absolute;
+//   left: calc(50% - 84px);
+//   top: 220px;
+//   width: 168px;
+// }
