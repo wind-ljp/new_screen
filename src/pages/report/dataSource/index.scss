@@ -1,0 +1,39 @@
+
+.modal-data {
+  .ant-modal-content {
+    background-color: #1f1f1f;
+    .ant-modal-header {
+      background-color: #111111;
+      border: none;
+      .ant-modal-title {
+        color: #fff;
+      }
+    }
+    .ant-modal-close {
+      color: #fff;
+    }
+  }
+  .container{
+    padding: 10px;
+    background-color: #1f1f1f;
+    .ant-tabs-nav {
+      color: #fff;
+    }
+    .ant-pro-card {
+      background-color: #1f1f1f;
+    }
+    .ant-pro-card-border {
+      border: 1px solid #1f1f1f;
+    } 
+    .ant-table{
+      .ant-table-cell {
+        background-color: #1f1f1f;
+        color: #fff;
+      }
+      .ant-table-tbody>tr>td {
+        border-bottom: 1px solid #1f1f1f;
+        transition: background .3s;
+      }
+    }
+  }
+}

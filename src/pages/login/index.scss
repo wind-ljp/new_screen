@@ -1,0 +1,86 @@
+.app-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: url('../../assets/image/login/login-bg.png') no-repeat;
+  background-size: 100% 100%;
+
+  .app-login__form {
+    width: 1366px;
+    height: 100%;
+    background: url('../../assets/image/login/login-box.png') no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .header {
+      .title {
+        font-size: 30px;
+        font-weight: bold;
+        color: #FFFFFF;
+        text-shadow: 10px 11px 1px rgba(0, 2, 15, 0.15);
+      }
+    }
+
+    .body {
+      .ant-input-affix-wrapper-lg {
+        width: 452px;
+        height: 54px;
+        color: #EAF1FE;
+        line-height: 82px;
+        font-weight: 400;
+        background: url('../../assets/image/login/input-bg.png') no-repeat;
+        background-size: 100% 100%;
+        padding: 0 24px;
+
+        .ant-input-suffix {
+          svg {
+            color: #EAF1FE;
+          }
+        }
+
+        .ant-input-prefix {
+          svg {
+            color: #EAF1FE;
+          }
+        }
+
+        #login-input-xxx {
+          color: #EAF1FE;
+          background-color: transparent !important;
+        }
+
+        #login-input-xxx-2 {
+          color: #EAF1FE;
+          background-color: transparent !important;
+        }
+
+        input:-webkit-autofill {
+          box-shadow: 0 0 0 1000px transparent inset !important;
+        }
+
+        input:-internal-autofill-previewed,
+        input:-internal-autofill-selected {
+          -webkit-text-fill-color: #EAF1FE !important;
+          transition: background-color 5000s ease-in-out 0s !important;
+        }
+      }
+      #basic-login {
+        .ant-btn.ant-btn-block {
+          background: url('../../assets/image/login/button-bg-2.png'), url('../../assets/image/login/button-bg.png');
+          background-repeat: no-repeat;
+          background-position: center bottom, center center;
+          // background-size: 100% 100%;
+          border: none;
+          border-radius: 50px;
+          color: #FFFFFF;
+          height: 54px;
+        }
+      }
+    }
+  }
+}

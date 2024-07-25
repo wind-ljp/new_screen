@@ -1,0 +1,144 @@
+.nodeContainer#nodeContainerId {
+  transform: scale(0);
+  position: absolute;
+  top: 170px;
+  left: 23px;
+  width: 350px;
+  height: 864px;
+  background-color: rgba(11, 16, 28, 0.93);
+  border: 1px solid rgba(65, 141, 255, 0.14);
+  box-shadow: 0px 45px 59px 0px rgba(7, 14, 29, 0.27);
+  border-radius: 10px;
+  overflow-y: auto;
+
+  .title {
+    height: 25px;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    .typeName {
+      font-size: 22px;
+      line-height: 22px;
+      font-family: YouSheBiaoTiHei;
+      font-weight: 400;
+      margin-right: 10px;
+      color: #E4F2FF;
+      text-shadow: 5px 7px 0px rgba(0, 66, 255, 0.03), 16px 23px 16px rgba(14, 19, 48, 0.22);
+    }
+
+    img {
+      cursor: pointer;
+    }
+  }
+
+  .body {
+    .ant-collapse {
+
+      >.ant-collapse-item {
+
+        &:not(:first-child) {
+          margin-top: 16px;
+        }
+
+        >.ant-collapse-header {
+          color: #EDFAFF;
+          font-size: 25px;
+          font-family: YouSheBiaoTiHei;
+          font-weight: 400;
+          text-shadow: 10px 11px 1px rgba(15, 21, 30, 0.15);
+          // opacity: 0.35;
+          padding: 12px 0px 12px 58px;
+          background-color: rgba(48, 68, 89, 0.25);
+          background-image: url('../../../../assets/image/three/resorce-bg.png');
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+        }
+      }
+
+      // >.ant-collapse-item-active {
+      // }
+    }
+
+    .ant-pagination {
+      color: #22B6FB;
+
+      .ant-pagination-disabled .ant-pagination-item-link,
+      .ant-pagination-disabled:hover .ant-pagination-item-link {
+        color: #22B6FB;
+      }
+
+      .ant-pagination-item-link,
+      .ant-pagination-disabled:hover .ant-pagination-item-link {
+        color: #22B6FB;
+      }
+    }
+
+    .ant-pagination-simple {
+      .ant-pagination-simple-pager {
+        input {
+
+          color: #fff;
+          background-color: #22B6FB;
+          border: 1px solid #22B6FB;
+          width: 25px;
+          height: 25px;
+
+          &:hover {
+            color: #fff;
+            border-color: #22B6FB;
+            background-color: #22B6FB;
+          }
+
+          &:active {
+            color: #fff;
+            border-color: #22B6FB;
+            background-color: #22B6FB;
+          }
+
+        }
+      }
+    }
+
+    [data-theme='compact'] .site-collapse-custom-collapse .site-collapse-custom-panel,
+    .site-collapse-custom-collapse .site-collapse-custom-panel {
+
+      overflow: hidden;
+      border: 0px;
+
+      .col {
+
+        &:not(:first-child) {
+          margin-top: 6px;
+        }
+
+        .label {
+          cursor: pointer;
+          margin-left: 10px;
+          font-size: 18px;
+          font-weight: 400;
+          color: #E4F2FF;
+        }
+
+        .ant-checkbox-wrapper {
+          .ant-checkbox {
+            .ant-checkbox-inner {
+              border-color: #22B6FB;
+              background-color: transparent;
+            }
+          }
+        }
+
+        .ant-checkbox-wrapper-checked {
+          .ant-checkbox-checked {
+            .ant-checkbox-inner {
+              border-color: #22B6FB;
+              background-color: #22B6FB;
+            }
+          }
+        }
+      }
+    }
+  }
+}
