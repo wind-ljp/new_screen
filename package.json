@@ -34,6 +34,7 @@
     "react-svg": "^16.1.32",
     "redux-undo": "^1.1.0",
     "sass": "^1.77.8",
+    "sass-resources-loader": "^2.2.5",
     "seamscroll": "^0.0.12",
     "swiper": "^11.1.4",
     "three": "^0.165.0",
