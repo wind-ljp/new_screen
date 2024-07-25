@@ -1,4 +1,10 @@
-// @include b(element) {
-//     position: absolute;
-//     overflow: hidden;
-// }
+@import "@assets/scss/base/font";
+@import "@assets/scss/base/var";
+@import "@assets/scss/mixin/mixins";
+@import "@assets/scss/mixin/basic";
+@import "@assets/scss/base/normalize";
+
+@include b(element) {
+  position: absolute;
+  overflow: hidden;
+}
