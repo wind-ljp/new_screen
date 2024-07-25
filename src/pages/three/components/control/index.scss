@@ -1,0 +1,103 @@
+.control-container {
+  position: absolute;
+  left: 749px;
+  top: 135px;
+  width: 220px;
+  height: 48px;
+  background: rgba(11, 16, 28, 0.64);
+  border: 2px solid #142345;
+  border-radius: 23px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  z-index: 9999;
+
+  .list {
+    width: calc(749px / 5);
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .move {
+    background: url(../../../../assets/image/three/move.png) center center no-repeat;
+    background-size: 24px 24px;
+  }
+
+  .moveActive {
+    background: url(../../../../assets/image/three/move_l.png) center center no-repeat;
+    background-size: 24px 24px;
+  }
+
+  .rotate {
+    background: url(../../../../assets/image/three/rotate.png) center center no-repeat;
+    background-size: 24px 24px;
+  }
+
+  .rotateActive {
+    background: url(../../../../assets/image/three/rotate_l.png) center center no-repeat;
+    background-size: 24px 24px;
+  }
+
+  .select {
+    background: url(../../../../assets/image/three/select.png) center center no-repeat;
+    background-size: 24px 24px;
+  }
+
+  .selectActive {
+    background: url(../../../../assets/image/three/select_l.png) center center no-repeat;
+    background-size: 24px 24px;
+  }
+
+  .big {
+    background: url(../../../../assets/image/three/big.png) center center no-repeat;
+    background-size: 24px 24px;
+
+    &:active {
+      background: url(../../../../assets/image/three/big_l.png) center center no-repeat;
+      background-size: 24px 24px;
+    }
+  }
+
+
+  .small {
+    background: url(../../../../assets/image/three/small.png) center center no-repeat;
+    background-size: 24px 24px;
+
+    &:active {
+      background: url(../../../../assets/image/three/small_l.png) center center no-repeat;
+      background-size: 24px 24px;
+    }
+  }
+
+  .reset {
+    background: url(../../../../assets/image/three/reset.png) center center no-repeat;
+    background-size: 24px 24px;
+
+    &:active {
+      background: url(../../../../assets/image/three/reset_l.png) center center no-repeat;
+      background-size: 24px 24px;
+    }
+  }
+
+}
+
+// .tool {
+//   display: flex;
+//   position: fixed;
+//   height: 48px;
+//   top: 135px;
+//   left: 619px;
+//   z-index: 9999;
+  
+//   img {
+//     cursor: pointer;
+//     width: calc(100% / 2);
+
+//     &:not(:first-child) {
+//       margin-left: 16px;
+//     }
+//   }
+// }

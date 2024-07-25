@@ -1,0 +1,59 @@
+.modelBoxModal {
+  .ant-modal {
+    // margin-top: 100px;
+    top: 190px;
+    .ant-modal-content {
+      height: 100%;
+      background: rgba(11,16,28,0.93);
+      border: 1px solid rgba(65,141,255,0.14);
+      box-shadow: 0px 45px 59px 0px rgba(7,14,29,0.27);
+      border-radius: 10px;
+      .ant-modal-header {
+        height: 56px;
+        background: url('../../../../assets/image/three/modal-head.png');
+        border-radius: 10px;
+        border-bottom: 0 !important;
+        padding: 0;
+        .ant-modal-title {
+          color: #fff;
+          line-height: 56px;
+          font-size: 24px;
+          margin-left: 24px;
+          font-weight: 400;
+          font-family: YouSheBiaoTiHei;
+        }
+      }
+      .ant-modal-close {
+        color: #fff;
+        .ant-model-close-x {
+          height: 56px;
+          line-height: 56px;
+        }
+      }
+      .ant-modal-body {
+        height: 100%;
+        padding: 0;
+        .title {
+          height: 19px;
+          font-size: 20px;
+          font-weight: 400;
+          color: #71BEFF;
+          line-height: 2px;
+        }
+        .content {
+          height: 19px;
+          font-size: 20px;
+          font-weight: 400;
+          color: #FFFFFF;
+          line-height: 2px;
+        }
+      }
+    }
+  }
+}
+
+.point-list {
+  &:not(:first-child) {
+    margin-top: 67px;
+  }
+}
